@@ -1,0 +1,29 @@
+{
+  "feature_cols": [
+    "genero",
+    "idade",
+    "escolaridade",
+    "renda_familiar_sm",
+    "cidade",
+    "ano_atendimento",
+    "mes_atendimento",
+    "procedimento",
+    "numero_sessoes",
+    "dificuldade_acesso",
+    "nota_satisfacao"
+  ],
+  "cat_cols": [
+    "genero",
+    "escolaridade",
+    "cidade",
+    "procedimento",
+    "dificuldade_acesso"
+  ],
+  "target": "completou_tratamento",
+  "model": "GradientBoostingClassifier",
+  "metrics": {
+    "accuracy": 0.6,
+    "f1": 0.7241,
+    "roc_auc": 0.5662
+  }
+}
