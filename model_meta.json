@@ -20,10 +20,10 @@
     "dificuldade_acesso"
   ],
   "target": "completou_tratamento",
-  "model": "GradientBoostingClassifier",
+  "model": "Random Forest",
   "metrics": {
-    "accuracy": 0.6,
-    "f1": 0.7241,
-    "roc_auc": 0.5662
+    "accuracy": 0.7125,
+    "f1": 0.7928,
+    "roc_auc": 0.7169
   }
 }
