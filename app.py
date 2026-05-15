@@ -152,4 +152,3 @@ def teste():
 
 if __name__ == "__main__":
     print(f"API rodando em https://nuvemtechapi-ia.onrender.com")
-    app.run(host="0.0.0.0", port=port, debug=False)
